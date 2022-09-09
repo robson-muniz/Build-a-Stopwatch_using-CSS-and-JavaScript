@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body {
+	background-color: #31394c;
+	color: #fff;
+}
+
+h1 {
+	font-size: 48px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 200;
+	text-align: center;
+	line-height: 59px;
+	padding: 0 64px;
+	margin: 0;
+}
+
+.stopwatch {
+	margin-top: 15rem;
+	display: grid;
+	justify-items: center;
+	grid-row-gap: 23px;
+	width: 100%;
+	padding-top: 25px;
+}
+
+.gold {
+	font-weight: 900;
+	color: #f2c94c;
+	text-shadow: 0 0 0px #fff, 0 0 50px #f2c94c;
+}
+
+.time {
+	font-family: sans-serif, monospace;
+	font-weight: 300;
+	font-size: 48px;
+}
+
+.circle {
+	margin-top: 5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 2px solid;
+	width: 270px;
+	height: 270px;
+	border-radius: 50%;
+	font-family: sans-serif;
+}
+
+.controls {
+	display: flex;
+	justify-content: space-between;
+	width: 178px;
+}
+
+button {
+	background: transparent;
+	padding: 0;
+	border: none;
+	margin: 0;
+	outline: none;
+	font-size: 50px;
+	color: #fff;
+	cursor: pointer;
+	transition: all 0.5s ease;
+}
+
+button:active {
+	transform: scale(.90);
+}
+button:hover {
+	color: #f2c94c;
+}
+
+.play {
+	display: block;
+}
+
+.pause {
+	display: none;
+}
